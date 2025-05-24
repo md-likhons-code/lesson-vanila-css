@@ -288,7 +288,7 @@ mm.add("(min-width: 767.98px)", () => {
 
 mm.add("(max-width: 991.98px)", () => {
     tl3.from(".img-area img", {
-        y: -100,
+        y: -250,
         opacity: 0,
         duration: 1.2,
         ease: "power2.out",
@@ -330,7 +330,7 @@ mm.add("(max-width: 991.98px)", () => {
         scrollTrigger: {
             trigger: ".hero-wrapper .button-area",
             scroller: "body",
-            start: "top 70%",
+            start: "top 60%",
         },
     });
 
@@ -342,7 +342,7 @@ mm.add("(max-width: 991.98px)", () => {
         scrollTrigger: {
             trigger: ".engagement",
             scroller: "body",
-            start: "top 70%",
+            start: "top 60%",
         },
     });
 
