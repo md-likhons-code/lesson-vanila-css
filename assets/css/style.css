@@ -609,9 +609,14 @@ section.testimonials {
         goals with lesson */
 
 
-section.awesome-platform,
+section.awesome-platform {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
 section.goals-with-lesson {
-    padding: 200px 0;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 .awesome-platform-wrapper,
