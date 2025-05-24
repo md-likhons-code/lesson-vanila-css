@@ -1074,10 +1074,16 @@ footer.footer {
         width: 80%;
         text-align: center;
     }
-    section.popular-courses,
-    section.awesome-platform, 
-    section.goals-with-lesson {
+    section.popular-courses {
         padding: 100px 0;
+    }
+    section.awesome-platform {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+    section.goals-with-lesson {
+        padding-top: 50px;
+        padding-bottom: 100px;
     }
     .blog-title p {
         width: 53%;
