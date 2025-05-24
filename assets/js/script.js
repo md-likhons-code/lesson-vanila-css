@@ -288,7 +288,7 @@ mm.add("(min-width: 767.98px)", () => {
 
 mm.add("(max-width: 991.98px)", () => {
     tl3.from(".img-area img", {
-        y: -250,
+        y: -350,
         opacity: 0,
         duration: 1.2,
         ease: "power2.out",
