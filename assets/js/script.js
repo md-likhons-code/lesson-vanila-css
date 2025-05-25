@@ -330,7 +330,7 @@ mm.add("(max-width: 991.98px)", () => {
         scrollTrigger: {
             trigger: ".hero-wrapper .button-area",
             scroller: "body",
-            start: "top 60%",
+            start: "top 75%",
         },
     });
 
@@ -342,7 +342,7 @@ mm.add("(max-width: 991.98px)", () => {
         scrollTrigger: {
             trigger: ".engagement",
             scroller: "body",
-            start: "top 60%",
+            start: "top 75%",
         },
     });
 
