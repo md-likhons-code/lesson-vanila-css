@@ -322,7 +322,6 @@ nav.mobile-menu ul li a:hover {
 }
 
 .button-area button {
-    border: none;
     background: var(--amber-color);
     color: var(--white-color);
     border: 1px solid var(--amber-color);
@@ -345,7 +344,7 @@ nav.mobile-menu ul li a:hover {
     align-items: center;
 }
 
-.button-area a:hover {
+.button-area a.btn-3:hover {
     border: 1px solid var(--amber-color);
     padding-right: 5px;
     border-radius: 32px;
@@ -442,12 +441,16 @@ section.popular-courses {
 }
 
 .prev-btn:hover, 
-.next-btn:hover {
+.next-btn:hover,
+.prev-btn:focus,
+.next-btn:focus {
     background: var(--amber-color);
 }
 
 .prev-btn:hover svg, 
-.next-btn:hover svg {
+.next-btn:hover svg, 
+.prev-btn:focus svg,
+.next-btn:focus svg {
     color: var(--white-color);
 }
 
